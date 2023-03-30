@@ -7,18 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8960892829A8D76400E75BFC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8960892729A8D76400E75BFC /* SettingsView.swift */; };
+		898A5EB829AB79B700EDA3AB /* ConverterRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898A5EB729AB79B700EDA3AB /* ConverterRectangle.swift */; };
+		898A5EBA29AB7A8E00EDA3AB /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898A5EB929AB7A8E00EDA3AB /* Title.swift */; };
+		898A5EBC29AB7ADD00EDA3AB /* ArrowsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898A5EBB29AB7ADD00EDA3AB /* ArrowsButton.swift */; };
+		898A5EBE29AB7C4600EDA3AB /* NumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898A5EBD29AB7C4600EDA3AB /* NumberPad.swift */; };
+		898A5EC229ABBFEE00EDA3AB /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898A5EC129ABBFEE00EDA3AB /* HapticManager.swift */; };
+		89D4175A29A61DDE00FC74ED /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D4175929A61DDE00FC74ED /* Extensions.swift */; };
+		89D4176D29A659E200FC74ED /* Halfmoon-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89D4176C29A659E200FC74ED /* Halfmoon-Bold.ttf */; };
+		89D4177029A65C6D00FC74ED /* Teenager.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89D4176F29A65C6D00FC74ED /* Teenager.ttf */; };
+		89D4177229A660B100FC74ED /* Mathics Round Free.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89D4177129A660B100FC74ED /* Mathics Round Free.ttf */; };
+		89D4177429A6626300FC74ED /* SF-UI-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89D4177329A6626300FC74ED /* SF-UI-Display-Regular.otf */; };
+		89D6806D29A4E23D008483E3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D6806C29A4E23D008483E3 /* HomeView.swift */; };
+		89D6807229A4FCE9008483E3 /* FlagKit in Frameworks */ = {isa = PBXBuildFile; productRef = 89D6807129A4FCE9008483E3 /* FlagKit */; };
 		89EF5E3929A3DE34006A77E2 /* CurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EF5E3829A3DE34006A77E2 /* CurrencyApp.swift */; };
 		89EF5E3B29A3DE34006A77E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EF5E3A29A3DE34006A77E2 /* ContentView.swift */; };
 		89EF5E3D29A3DE35006A77E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EF5E3C29A3DE35006A77E2 /* Assets.xcassets */; };
 		89EF5E4029A3DE35006A77E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EF5E3F29A3DE35006A77E2 /* Preview Assets.xcassets */; };
+		89EF5E4A29A3E1DF006A77E2 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EF5E4929A3E1DF006A77E2 /* Currency.swift */; };
+		89EF5E4C29A3E203006A77E2 /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EF5E4B29A3E203006A77E2 /* CurrencyViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8960892729A8D76400E75BFC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		898A5EB729AB79B700EDA3AB /* ConverterRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterRectangle.swift; sourceTree = "<group>"; };
+		898A5EB929AB7A8E00EDA3AB /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		898A5EBB29AB7ADD00EDA3AB /* ArrowsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowsButton.swift; sourceTree = "<group>"; };
+		898A5EBD29AB7C4600EDA3AB /* NumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPad.swift; sourceTree = "<group>"; };
+		898A5EC129ABBFEE00EDA3AB /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		89D4175929A61DDE00FC74ED /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		89D4176B29A6596400FC74ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		89D4176C29A659E200FC74ED /* Halfmoon-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Halfmoon-Bold.ttf"; sourceTree = "<group>"; };
+		89D4176F29A65C6D00FC74ED /* Teenager.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Teenager.ttf; sourceTree = "<group>"; };
+		89D4177129A660B100FC74ED /* Mathics Round Free.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mathics Round Free.ttf"; sourceTree = "<group>"; };
+		89D4177329A6626300FC74ED /* SF-UI-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Regular.otf"; sourceTree = "<group>"; };
+		89D6806C29A4E23D008483E3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		89EF5E3529A3DE34006A77E2 /* Currency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Currency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EF5E3829A3DE34006A77E2 /* CurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyApp.swift; sourceTree = "<group>"; };
 		89EF5E3A29A3DE34006A77E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89EF5E3C29A3DE35006A77E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89EF5E3F29A3DE35006A77E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89EF5E4929A3E1DF006A77E2 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		89EF5E4B29A3E203006A77E2 /* CurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +56,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D6807229A4FCE9008483E3 /* FlagKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89D4175B29A63AC300FC74ED /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				898A5EB729AB79B700EDA3AB /* ConverterRectangle.swift */,
+				898A5EB929AB7A8E00EDA3AB /* Title.swift */,
+				898A5EBB29AB7ADD00EDA3AB /* ArrowsButton.swift */,
+				898A5EBD29AB7C4600EDA3AB /* NumberPad.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		89D4176E29A65BE100FC74ED /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				89D4177329A6626300FC74ED /* SF-UI-Display-Regular.otf */,
+				89D4177129A660B100FC74ED /* Mathics Round Free.ttf */,
+				89D4176F29A65C6D00FC74ED /* Teenager.ttf */,
+				89D4176C29A659E200FC74ED /* Halfmoon-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		89EF5E2C29A3DE34006A77E2 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +104,16 @@
 		89EF5E3729A3DE34006A77E2 /* Currency */ = {
 			isa = PBXGroup;
 			children = (
+				89D4176B29A6596400FC74ED /* Info.plist */,
+				89EF5E4829A3E161006A77E2 /* View Model */,
+				89EF5E4729A3E159006A77E2 /* Model */,
+				89EF5E4629A3E14F006A77E2 /* View */,
 				89EF5E3829A3DE34006A77E2 /* CurrencyApp.swift */,
 				89EF5E3A29A3DE34006A77E2 /* ContentView.swift */,
 				89EF5E3C29A3DE35006A77E2 /* Assets.xcassets */,
+				89D4176E29A65BE100FC74ED /* Fonts */,
 				89EF5E3E29A3DE35006A77E2 /* Preview Content */,
+				89D4175929A61DDE00FC74ED /* Extensions.swift */,
 			);
 			path = Currency;
 			sourceTree = "<group>";
@@ -65,6 +124,33 @@
 				89EF5E3F29A3DE35006A77E2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		89EF5E4629A3E14F006A77E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89D4175B29A63AC300FC74ED /* Components */,
+				89D6806C29A4E23D008483E3 /* HomeView.swift */,
+				8960892729A8D76400E75BFC /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		89EF5E4729A3E159006A77E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89EF5E4929A3E1DF006A77E2 /* Currency.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89EF5E4829A3E161006A77E2 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				89EF5E4B29A3E203006A77E2 /* CurrencyViewModel.swift */,
+				898A5EC129ABBFEE00EDA3AB /* HapticManager.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +169,9 @@
 			dependencies = (
 			);
 			name = Currency;
+			packageProductDependencies = (
+				89D6807129A4FCE9008483E3 /* FlagKit */,
+			);
 			productName = Currency;
 			productReference = 89EF5E3529A3DE34006A77E2 /* Currency.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +200,9 @@
 				Base,
 			);
 			mainGroup = 89EF5E2C29A3DE34006A77E2;
+			packageReferences = (
+				89D6807029A4FCE8008483E3 /* XCRemoteSwiftPackageReference "FlagKit" */,
+			);
 			productRefGroup = 89EF5E3629A3DE34006A77E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +218,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				89EF5E4029A3DE35006A77E2 /* Preview Assets.xcassets in Resources */,
+				89D4176D29A659E200FC74ED /* Halfmoon-Bold.ttf in Resources */,
+				89D4177429A6626300FC74ED /* SF-UI-Display-Regular.otf in Resources */,
 				89EF5E3D29A3DE35006A77E2 /* Assets.xcassets in Resources */,
+				89D4177229A660B100FC74ED /* Mathics Round Free.ttf in Resources */,
+				89D4177029A65C6D00FC74ED /* Teenager.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +233,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89EF5E4A29A3E1DF006A77E2 /* Currency.swift in Sources */,
+				898A5EBA29AB7A8E00EDA3AB /* Title.swift in Sources */,
+				8960892829A8D76400E75BFC /* SettingsView.swift in Sources */,
+				89D4175A29A61DDE00FC74ED /* Extensions.swift in Sources */,
+				898A5EB829AB79B700EDA3AB /* ConverterRectangle.swift in Sources */,
+				898A5EBC29AB7ADD00EDA3AB /* ArrowsButton.swift in Sources */,
+				89EF5E4C29A3E203006A77E2 /* CurrencyViewModel.swift in Sources */,
+				898A5EBE29AB7C4600EDA3AB /* NumberPad.swift in Sources */,
 				89EF5E3B29A3DE34006A77E2 /* ContentView.swift in Sources */,
+				89D6806D29A4E23D008483E3 /* HomeView.swift in Sources */,
+				898A5EC229ABBFEE00EDA3AB /* HapticManager.swift in Sources */,
 				89EF5E3929A3DE34006A77E2 /* CurrencyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +376,9 @@
 				DEVELOPMENT_TEAM = FSGMDDB4P8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Currency/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +408,9 @@
 				DEVELOPMENT_TEAM = FSGMDDB4P8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Currency/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +451,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		89D6807029A4FCE8008483E3 /* XCRemoteSwiftPackageReference "FlagKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/madebybowtie/FlagKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		89D6807129A4FCE9008483E3 /* FlagKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89D6807029A4FCE8008483E3 /* XCRemoteSwiftPackageReference "FlagKit" */;
+			productName = FlagKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 89EF5E2D29A3DE34006A77E2 /* Project object */;
 }
